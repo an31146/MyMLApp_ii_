@@ -6,4 +6,12 @@
     <RootNamespace>myMLApp_ii_</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\myMLApp(ii)ML.Model\myMLApp.ML.Model.csproj" />
+  </ItemGroup>
+
 </Project>

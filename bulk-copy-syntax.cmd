@@ -1,0 +1,1 @@
+bcp [wikipedia-detox-250-line-data].[dbo].[SentimentAnalysis] format nul -S . -T -c -f wikipedia-detox-250-line-data.fmt
